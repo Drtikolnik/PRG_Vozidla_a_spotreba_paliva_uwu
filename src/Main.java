@@ -31,17 +31,11 @@ public class Main {
                             vozidlo.add(new Auto());
                             break;
 
-
-
                         case 2:
                             vozidlo.add(new Motorka());
                             break;
                     }
                     break;
-
-
-
-
 
                 case 2:
                     //VŠECHNA VOZIDLA
@@ -54,37 +48,17 @@ public class Main {
 
                 case 3:
                     //SPOČÍTÁNÍ SPOTŘEBY
-
                     for(Vozidlo vo : vozidlo){
-
                         vo.vypisInfo();
                         System.out.println(" - Spotřeba " +vo.vypocitejSpotrebu(150)+ "l");
-
                     }
-
-
-
-
                     break;
 
                 case 4:
                     behZapisu = false;
                     break;
-
-
             }
-
-
-
-
         }
-
-
-
-
-
-
-
 
 
 
